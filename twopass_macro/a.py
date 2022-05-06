@@ -21,9 +21,10 @@ for line in range(len(asm)):
         MDT.append((str(len(MDT)), temp))
 
 print("Pass1: ")
-print(MDT)
-print(MNT)
-print(ALA)
+print("MDT: ", MDT)
+print("MNT: ", MNT)
+print("ALA: ", ALA)
+
 
 print()
 MNTList = [i[1] for i in MNT]
